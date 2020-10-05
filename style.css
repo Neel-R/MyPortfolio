@@ -1,0 +1,73 @@
+h1 {
+    color:mediumaquamarine;
+    margin-left: 20px;
+} 
+.header *{
+    border: ridge;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    display: flex; /* or inline-flex */
+    justify-content: space-between;
+  }
+.grid {
+    display: flex; /* or inline-flex */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}  
+.Footer {
+    display: flex; /* or inline-flex */
+    justify-content: flex-end;
+}
+.Documentation {
+    display: flex; /* or inline-flex */
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+body {
+    color: rgb(255, 5, 5);
+    background-color: rgb(181, 255, 227);
+}
+.Menu{
+    display: flex; /* or inline-flex */
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding : 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 20px;
+}
+.Menu a{
+    margin:10px;
+}
+.Pro{
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+    position: relative;
+}
+.Pro p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.Pro:hover p{
+    opacity: 1;
+}
+.Pro:hover img{
+    opacity: 33%;
+}
+a:link{
+color: mediumaquamarine;
+}
+a:visited{
+color: mediumaquamarine;
+}
